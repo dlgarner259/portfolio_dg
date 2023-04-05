@@ -1,0 +1,88 @@
+
+/*Global CSS*/ 
+
+body {
+background-color: #ffffff;
+font-family: arial;
+font-size: 17px;
+
+}
+
+/* responsive image size
+img {   
+
+   width: 100%; 
+}
+
+*/
+
+
+
+
+
+
+/*Typography*/
+
+h1, h2, h3  {
+   font-weight: 700; 
+    
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+
+/*Links and Buttons*/
+
+a {
+    color:lightcoral;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    
+    color:red;
+}
+
+
+.button {
+    background-color:lightcoral;
+    color: #ffffff;
+    padding: 10px 20px 11px 20px;
+    
+}
+
+
+.button:hover {
+    
+    color:#f3f3f3;
+}
+
+
+
+/*header*/
+
+header ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header ul li {
+    display: inline-block;
+}
+
+
+.logo {
+    font-size: 30px;
+    color: purple;
+}
+
+
