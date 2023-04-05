@@ -40,19 +40,19 @@ h2 {
 /*Links and Buttons*/
 
 a {
-    color:lightcoral;
+    color:rgb(11, 6, 69);
     font-weight: bold;
     text-decoration: none;
 }
 
 a:hover {
     
-    color:red;
+    color:rgb(90, 82, 82);
 }
 
 
 .button {
-    background-color:lightcoral;
+    background-color:rgb(13, 7, 50);
     color: #ffffff;
     padding: 10px 20px 11px 20px;
     
@@ -82,7 +82,7 @@ header ul li {
 
 .logo {
     font-size: 30px;
-    color: purple;
+    color: nrgb(11, 6, 69);
 }
 
 
