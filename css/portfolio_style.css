@@ -3,23 +3,27 @@
 
 body {
 background-color: #F9F8F6;
-font-family: playfair display;
+font-family: "playfair display";
 font-size: 17px;
-padding: 20px
-boarder: 20px;
-margain: 20px auto;
 }
 
 
 
 header {
-    background-color: ;2A2A2A
-    font-family: playfair display;
+    background-color: #F9F8F6;
+    font-family: "playfair display";
     font-size: 20px;
     padding: 20px 0px 20px 0px;
-    margain: 20px
-    box-shadow; position: relative;
+    margin: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 
+main { 
+    padding-top: 400px;
 }
 
 nav {
@@ -46,7 +50,7 @@ header ul li {
  }
 
 footer {
-    background-color: ;#2A2A2A
+    background-color: #2A2A2A
     font-family: playfair display;
     font-size: 15px;
 }
