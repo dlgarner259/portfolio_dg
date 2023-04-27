@@ -69,25 +69,25 @@ body {
     
     
     .container {
-        padding: 0 15px;
+        padding: 20px;
+    
     }
     
     /*header*/
     
     header {
-        background-color: pink;
+        background-color: #F9F8F6;
         font-size: 20px;
-      padding: 10px 0;
+      padding: 20px 0px 0px 20px;
         position: fixed;
         width: 100%;
-        top: 0;
-        right: 0;
-        left: 0;
+        top: 20;
+        right: 20;
         z-index: 4;
     }
     
     nav {
-      word-spacing: 20px;
+      word-spacing: 30px;
       width: 100%;
     }
     
@@ -116,7 +116,8 @@ body {
     /*main*/
     
     main { 
-        padding-top: 400px;
+        padding-top: 300px;
+        padding-left: 20px;
     }
     
      #hero h1 {
@@ -132,12 +133,8 @@ body {
     
     footer {
         background-color: #2A2A2A;
-        font-family: playfair display;
         font-size: 15px;
     }
-    
-    
-    
     
     
     
@@ -146,16 +143,11 @@ body {
     @media only screen and (min-width: 640px) {
     
     .container {
-        padding: 0 0px;
+        padding: 0px 0px;
         max-width: 1200px;
         margin: 0 auto;
+
     }
-    
-    
-    
-    
-    
-    
     
     }
     
