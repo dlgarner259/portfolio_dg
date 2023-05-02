@@ -1,24 +1,33 @@
 
 /*Global CSS*/ 
 
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #F9F8F6;
     font-family: 'Playfair Display', serif;
     font-size: 17px;
     }
     
+
     
-    
-    
-    /* responsive image size
+ 
     img {   
     
        width: 100%; 
     }
     
-    */
-    
-    
+ 
+p {
+    margin-bottom: 40px;
+}
     
     
     /*Typography*/
@@ -35,22 +44,23 @@ body {
     h2 {
         font-size: 25px;
     }
-     p {
-        width: 500px;
-     }
+ 
     
     /*Links and Buttons*/
     
     a {
         color: #2A2A2A;
-        font-weight: 500;
+        font-weight: 500px bold;
         text-decoration: none;
     }
     
     a:hover {
         
-        color: #C3AC9C
+     
+       font-size: 21px;
+       font-style: bold;
     }
+
     
     
     .button {
@@ -59,6 +69,7 @@ body {
         padding: 10px 20px 11px 20px;
         border-radius: 5px;
         border: 2px solid #C3AC9C;
+
         
     }
     
@@ -67,6 +78,25 @@ body {
         opacity: 0.8;
     }
     
+
+    .button_footer {
+      background-color:#EBE4DA;
+      color: #2A2A2A;
+      padding: 10px 20px 11px 20px;
+      border-radius: 5px;
+      border: 2px solid #2A2A2A;
+      font-weight: bold;
+
+      
+  }
+  
+  
+  .button_footer:hover {
+     
+      font-size: 20px;
+      
+  }
+
     /*Animations*/
     
     /*layout*/
@@ -74,20 +104,11 @@ body {
     
     .container {
         padding: 40px;
-        width: 0 auto;
+      margin: 0 auto;
     
     }
     
-    [class*="col-"] {
-        float: left;
-        padding: 20px;
-      }
-
-      .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+   
 
     /*header*/
     
@@ -117,6 +138,8 @@ body {
             display: inline-block; 
          padding: 0 15px;
          text-align: right;
+        margin-top: -50px;
+    
        
      }
      
@@ -139,9 +162,8 @@ body {
     main { 
         background-color: #2A2A2A;
         color: #EBE4DA;
-        padding-top: 300px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-top: 200px;
+  padding-bottom: 200px;
     
 
     }
@@ -160,7 +182,14 @@ body {
       }
 
 
-    /*Animations*/
+    /*Animations*/ 
+
+
+
+.animation svg {
+    width: 100%;
+    height: auto;
+}
 
     #arm-hand {
         animation-name: arm-hand;
@@ -214,20 +243,57 @@ body {
         background-color:#EBE4DA;
         font-size: 15px;
         color: #2A2A2A;
+        text-align: center;
+        padding: 40px 0;
        
     }
     
-    
-    
+footer img {
+    width: 48px;
+    margin: 10px;
+  
+}
+
+ 
     
     /* respnsive */
     @media only screen and (min-width: 640px) {
     
     .container {
-        padding: 0px 0px;
+        padding: 0px;
         max-width: 1200px;
         margin: 0 auto;
     }
+        
+        
+         [class*="col-"] {
+        float: left;
+        padding: 20px 40px 20px 0px;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+        
+        .col-md-6 {
+            width: 50%;
+        }
+        
+          .col-lg-7 {
+            width: 60%;
+        }
+        
+          .col-lg-5 {
+            width: 40%;
+        }
+
+          .col-lg-9 {
+            width: 10%;
+            
+        }
+        
 
     header {
         text-align: unset;
@@ -237,9 +303,14 @@ body {
 
     
     nav {
-        word-spacing: 30px;
+   margin-top: -105px;
         width: auto;
         float: right;    
        
       }
+        
+         nav ul li {
+            margin-left: 20px 
+        }
+        
     }
