@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dee Garner Portfolio</title>
 <!-- CSS-->
-<link rel="stylesheet" type="text/css" href="css/portfolio_style.css"> 
+<link rel="stylesheet" type="text/css" href="css/portfolio_style.css">
+<script src="https://kit.fontawesome.com/aff2a08da4.js" crossorigin="anonymous"></script>
 <title>Dee Garner Portfolio</title>
 
 </head>
 <body>
     <header> <!-- start header -->
         <div class="container">
+            <div class="navtoggle" id="myNavtoggle">
+
         <div>
             <a class="logo" href="index.html">Dee Garner</a>
         <br> 
@@ -23,6 +26,7 @@
                 <li><a href="index.html">Work</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
             </ul>
         </nav>
         </div>
@@ -45,12 +49,10 @@
      
 <div class="container">  
 <div class="row"><!-- row -->  
-    <div>  <div class="col-md-6 col-lg-7"> 
+ <div class="col-md-6 col-lg-7"> 
       <picture>
-        <source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
         <img src="img/Project.png" alt="My Image">
       </picture>
-    </div>
     </div>
 
 
@@ -95,5 +97,10 @@
       </footer>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
     </body>
 </html> 
