@@ -17,37 +17,39 @@
 <div class="container">
   <div class="navtoggle" id="myNavtoggle">
     <a class="logo" href="index.html">Dee Garner</a>
-<br> 
-<h3>Work Page</h3>
+
 
 <nav>
     <ul>
         <li><a href="index.html">Work</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
         <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
     </ul>
 </nav>
-
+</div>
 </div>
    </header>
     
     <main>
  
      
-   <div class="container"> <!-- hero maybe background color-->  
+   <div class="container"> <!-- hero maybe background color-->
+    <div class="hero"> 
        <div> <!-- conatiner -->  
-<h3>Hi, I'm Dee</h3>
-<p>UX/ UI Designer, specializing in Front-End Development</p>
+<h1>Hi, I'm Dee</h1>
+<h2>UX/ UI Designer, specializing in Front-End Development</h2>
+<br>
 <div> 
 </div>
-<br>
+
        </div> <!-- conatiner END -->  
       </div>
-        
+    </div> 
+    
    <div class="container">  <!-- conatiner -->    
      
-<h2>My Work</h2>
+<h3>My Work</h3>
      
      
 <div class="row"><!-- row -->  
@@ -58,7 +60,7 @@
       </picture>
     </div>
     <div class="col-md-6 col-lg-5"> <!-- column 2 --> 
-      <h3>Learn Bar:</h3>
+      <h4>Learn Bar:</h4>
       <p>
        Enabling anyone, anywhere to connect with an expert in virtually any field
       </p>
@@ -68,14 +70,14 @@
     
 <!--Project-->
 
-<h1> Animations </h1>
+<h3> Animations </h3>
 
 <div class="animation"> 
     <div class="row">
      <div class="col-md-6 col-lg-7">
 <svg width="877" height="744" viewBox="0 0 877 744" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="877" height="744" fill="#F5F5F5"/>
-  <g id="undraw_mobile_app_re_catg 1" clip-path="url(#clip0_205_2)">
+  <g id="phone2" clip-path="url(#clip0_205_2)">
   <g id="Phone">
   <g id="Vector">
   <mask id="path-1-inside-1_205_2" fill="white">
@@ -84,7 +86,7 @@
   <path d="M169.11 591.921C168.533 588.844 170.894 586 174.024 586H431.464C433.808 586 435.837 587.628 436.345 589.917L462.646 708.424C463.331 711.51 461.017 714.449 457.857 714.507L197.228 719.316C194.787 719.361 192.671 717.637 192.221 715.238L169.11 591.921Z" fill="#EBE4DA" stroke="#2A2A2A" stroke-width="6" mask="url(#path-1-inside-1_205_2)"/>
   </g>
   </g>
-  <g id="Outside Phone">
+  <g id="phone3">
   <path id="Vector_2" d="M92.4294 86.0386H333.045C344.656 86.0386 355.921 89.9889 364.99 97.2403C374.058 104.492 380.389 114.613 382.943 125.939L504.521 665.206C505.847 671.088 505.87 677.189 504.589 683.081C503.308 688.973 500.754 694.514 497.105 699.314C493.457 704.115 488.802 708.059 483.468 710.87C478.134 713.682 472.249 715.292 466.227 715.589L218.873 727.776C205.628 728.429 192.598 724.24 182.214 715.991C171.83 707.743 164.803 695.998 162.442 682.948L93.4757 301.68L88.3449 303.146L75.1487 230.882L80.4302 229.562L61.1792 123.136C60.3546 118.578 60.5458 113.893 61.7392 109.417C62.9326 104.941 65.0987 100.784 68.0832 97.2408C71.0676 93.6979 74.7969 90.857 79.0052 88.9207C83.2135 86.9844 87.7972 86.0003 92.4294 86.0386Z" fill="#2A2A2A"/>
   <path id="Vector_3" d="M301.368 97.6638H329.455C337.521 97.6638 345.345 100.422 351.627 105.482C357.909 110.541 362.272 117.597 363.991 125.477L480.69 660.345C481.362 663.424 481.361 666.612 480.688 669.692C480.015 672.771 478.685 675.669 476.789 678.187C474.894 680.705 472.477 682.784 469.704 684.283C466.931 685.782 463.868 686.664 460.722 686.87L214.168 703.029C207.213 703.485 200.333 701.364 194.841 697.07C189.35 692.777 185.631 686.612 184.396 679.752L84.816 126.914C84.1715 123.336 84.3202 119.66 85.2515 116.145C86.1828 112.631 87.8741 109.364 90.206 106.574C92.5379 103.785 95.4536 101.541 98.7473 100.001C102.041 98.4618 105.633 97.6638 109.268 97.6638H135.913C138.492 97.6638 140.999 98.514 143.046 100.083C145.093 101.651 146.566 103.851 147.236 106.341C147.828 108.54 149.128 110.482 150.935 111.866C152.742 113.251 154.955 114.002 157.232 114.002H283.725C288.183 114.002 292.477 112.319 295.748 109.29C299.019 106.261 301.026 102.109 301.368 97.6638Z" fill="white"/>
   </g>
@@ -150,21 +152,25 @@
   </g>
   </g>
   <defs>
-  <clipPath id="clip0_205_2">
+  
   <rect width="876.972" height="744" fill="white"/>
-  </clipPath>
+
   </defs>
   </svg>
         </div>
              <div class="col-md-6 col-lg-5">
-                  <h3>CSS Animation</h3>     
+                  <h4>CSS Animation</h4> 
+                    <p>
+                     Enabling anyone, anywhere to connect with an expert in virtually any field
+                    </p>
+                    <a class="button" href="placeholder">Coming Soon!</a>
+                  </div>
+                </div><!-- row END -->      
         </div>
 </div>
 
 
-     </div>
-       
-        </div>
+     
 </main>
 
 
@@ -182,16 +188,16 @@
         <br>
         <!--Social Media Layout and Placeholders-->
         <a href="LINKEDIN-URL" target="_blank">
-            <img src="img/fiverr.png">
+            <img src="img/fiverr.png" alt="My Image">
         </a>
         <a href="TWITTER-URL" target="_blank">
-            <img src="img/twitter.png">
+            <img src="img/twitter.png" alt="My Image">
         </a>
         <a href="ANOTHER-SOCIAL-LINK">
-            <img src="img/linkedin.png">
+            <img src="img/linkedin.png" alt="My Image">
         </a>
         <a href="ANOTHER-SOCIAL-LINK">
-            <img src="img/mdi_instagram.png">
+            <img src="img/mdi_instagram.png" alt="My Image">
         </a>
         </div>
         <p>Copyright Dee Garner 2023</p>
